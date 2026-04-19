@@ -242,6 +242,59 @@ body {
 
 
 
+
+
+.team {
+  padding: 80px 40px;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+.team h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  transition: 0.3s;
+  border: 1px solid #eee;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.team-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  margin: 10px 0 5px;
+}
+
+.especialidad {
+  color: #C8B89D;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
 .testimonials {
   padding: 80px 40px;
   background-color: #fff;
@@ -474,3 +527,49 @@ body {
   padding: 10px 15px;
 }
 
+
+
+
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 40px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.footer h3, .footer h4 {
+  margin-bottom: 15px;
+}
+
+.footer p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #C8B89D;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
