@@ -20,6 +20,9 @@
     <img src="assets/img/Logos/Logos_Logo-Text1.png" alt="Reverie" class="logo-text">
   </div>
 
+ <div class="menu-toggle" id="menu-toggle">
+  ☰
+</div> 
   <nav class="nav">
     <a href="#">Inicio</a>
     <a href="#servicios">Servicios</a>
@@ -58,8 +61,16 @@
   </div>
 </section>
 
-<section class="services" id="servicios">
-  <h2>Nuestros Servicios</h2>
+<section class="services hidden" id="servicios">
+
+  <div class="services-header">
+    <h2>Servicios</h2>
+
+    <p>
+      Tratamientos personalizados orientados al bienestar,
+      la armonía y el cuidado integral.
+    </p>
+  </div>
 
   <div class="services-container">
 
@@ -106,63 +117,129 @@
   </div>
 </section>
 
-<section class="about" id="nosotros">
+<section class="about hidden" id="nosotros">
   <div class="about-container">
 
     <div class="about-text">
       <h2>Sobre Reverie</h2>
+
       <p>
-        En Reverie combinamos medicina estética, salud y bienestar para ofrecer tratamientos personalizados que respetan la esencia natural de cada paciente.
+        Reverie nace como un espacio pensado para el bienestar,
+        la armonía y el cuidado integral de cada paciente.
       </p>
+
       <p>
-        Nuestro enfoque integral permite abordar cada caso de manera profesional, priorizando resultados naturales, seguros y duraderos.
+        Combinamos medicina estética, salud y tecnología con una
+        mirada humana y personalizada, priorizando resultados
+        naturales y experiencias de calidad.
+      </p>
+
+      <p>
+        Cada detalle de nuestro espacio fue diseñado para transmitir
+        calma, confianza y sofisticación.
       </p>
     </div>
 
     <div class="about-image">
-      <img src="assets/img/tratamientoestetico.jpg" alt="Centro estético Reverie">
+      <img src="assets/img/tratamientoesteticoreal.jpg" alt="Centro estético Reverie">
     </div>
 
   </div>
 </section>
 
-<section class="team" id="equipo">
-  <h2>Nuestro Equipo</h2>
+<section class="team hidden" id="equipo">
+
+  <div class="team-header">
+    <h2>Profesionales</h2>
+
+    <p>
+      Un equipo interdisciplinario enfocado en brindar
+      atención personalizada, profesional y humana.
+    </p>
+  </div>
 
   <div class="team-container">
 
+    <!-- PROFESIONAL 1 -->
     <div class="team-card">
+
       <img src="assets/img/profesional1.jpg" alt="Profesional">
-      <h3>Dra. Nombre Apellido</h3>
-      <p class="especialidad">Medicina Estética</p>
-      <p>
-        Profesional con más de 10 años de experiencia en tratamientos faciales y corporales, especializada en resultados naturales.
-      </p>
+
+      <div class="team-info">
+
+        <h3>Dra. Nombre</h3>
+
+        <div class="especialidad">
+          Medicina estética
+        </div>
+
+        <p>
+          Especialista en tratamientos faciales y armonización,
+          con enfoque en resultados naturales.
+        </p>
+
+      </div>
+
     </div>
 
+    <!-- PROFESIONAL 2 -->
     <div class="team-card">
+
       <img src="assets/img/profesional2.jpg" alt="Profesional">
-      <h3>Lic. Nombre Apellido</h3>
-      <p class="especialidad">Kinesiología</p>
-      <p>
-        Especialista en rehabilitación post quirúrgica y recuperación funcional, con enfoque personalizado en cada paciente.
-      </p>
+
+      <div class="team-info">
+
+        <h3>Dra. Nombre</h3>
+
+        <div class="especialidad">
+          Dermatología
+        </div>
+
+        <p>
+          Atención especializada en salud y cuidado integral
+          de la piel con tratamientos personalizados.
+        </p>
+
+      </div>
+
     </div>
 
+    <!-- PROFESIONAL 3 -->
     <div class="team-card">
+
       <img src="assets/img/profesional3.jpg" alt="Profesional">
-      <h3>Dra. Nombre Apellido</h3>
-      <p class="especialidad">Dermatología</p>
-      <p>
-        Experta en el cuidado de la piel, diagnóstico y tratamientos dermatológicos avanzados.
-      </p>
+
+      <div class="team-info">
+
+        <h3>Lic. Nombre</h3>
+
+        <div class="especialidad">
+          Kinesiología
+        </div>
+
+        <p>
+          Rehabilitación y tratamientos orientados al bienestar,
+          la recuperación y la calidad de vida.
+        </p>
+
+      </div>
+
     </div>
 
   </div>
-</section>
 
-<section class="testimonials">
-  <h2>Lo que dicen nuestros pacientes</h2>
+</section>
+<section class="testimonials hidden">
+  <div class="testimonials-header">
+
+  <h2>Experiencias</h2>
+
+  <p>
+    La confianza y el bienestar de nuestros pacientes
+    son el centro de cada experiencia en Reverie.
+  </p>
+
+</div>
 
   <div class="testimonials-container">
 
@@ -184,12 +261,22 @@
   </div>
 </section>
 
-<section class="contact" id="contacto">
+<section class="contact hidden" id="contacto">
+  <div class="contact-header">
+
   <h2>Contacto</h2>
+
+  <p>
+    Estamos para ayudarte y acompañarte en cada etapa
+    de tu experiencia en Reverie.
+  </p>
+
+</div>
 
   <div class="contact-container">
 
     <div class="contact-info">
+      <h3>Información</h3>
       <p><strong>Dirección:</strong> Córdoba Capital, Argentina</p>
       <p><strong>Teléfono:</strong> +54 9 351 000 0000</p>
       <p><strong>Horario:</strong> Lunes a Viernes de 9 a 18 hs</p>
@@ -219,32 +306,53 @@
   <div class="footer-container">
 
     <div class="footer-brand">
+
       <h3>Reverie</h3>
-      <p>Centro de estética y bienestar integral en Córdoba, enfocado en resultados naturales y personalizados.</p>
+
+      <p>
+        Un espacio creado para el bienestar, la armonía
+        y el cuidado integral, combinando medicina estética,
+        salud y experiencias premium.
+      </p>
+
     </div>
 
     <div class="footer-links">
+
       <h4>Navegación</h4>
+
       <a href="#">Inicio</a>
       <a href="#servicios">Servicios</a>
-      <a href="#equipo">Equipo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#equipo">Profesionales</a>
       <a href="#contacto">Contacto</a>
+
     </div>
 
     <div class="footer-contact">
+
       <h4>Contacto</h4>
+
       <p>Córdoba Capital, Argentina</p>
+
       <p>+54 9 351 000 0000</p>
-      <p>Lunes a Viernes de 9 a 18 hs</p>
+
+      <p>Lunes a Viernes · 9 a 18 hs</p>
+
     </div>
 
   </div>
 
   <div class="footer-bottom">
-    <p>© 2026 Reverie. Todos los derechos reservados.</p>
+
+    <p>
+      © 2026 Reverie · Todos los derechos reservados
+    </p>
+
   </div>
 
 </footer>
 
+<script src="assets/js/script.js"></script>
 </body>
 </html>
